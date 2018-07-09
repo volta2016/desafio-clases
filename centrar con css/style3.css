@@ -1,0 +1,62 @@
+.contenedor{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border: 1px solid green;
+}
+
+.centrar {
+  width: 50%;
+  border: 1px solid green;
+  margin: auto;
+}
+
+.contenedor2{
+  width: 400px;
+  height: 400px;
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centrar2 {
+  width: 50%;
+  border: 1px solid green;
+}
+
+.centrar3 {
+  width: 300px;
+  padding: 50px 0;
+  text-align: center;
+  border: 1px solid red;
+
+
+}
+
+.centrar4 {
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  line-height: 100px;
+  border: 1px solid red;
+
+}
+
+.centrar4 p{
+  margin:0;
+}
+
+.centrar5 {
+    height: 200px;
+    position: relative;
+    border: 1px solid green; 
+}
+
+.centrar5 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

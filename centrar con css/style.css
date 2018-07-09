@@ -1,0 +1,14 @@
+body {
+  	display: flex;
+  	justify-content: center;
+  	
+}
+
+.container {
+	border: red solid 0.5px;
+	width: 300px;
+	height: 200px;
+	align-items: center;
+	padding: 5px;
+}
+

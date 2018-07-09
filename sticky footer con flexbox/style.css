@@ -1,0 +1,36 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	font-size: 14px;
+}
+
+.header, .content, .footer {
+	margin: 10px;
+	padding: 5px;
+	min-width: 100vmax;
+	
+}
+
+.header {
+	background: rgb(144, 17, 224, 0.17);
+	display: flex;
+	justify-content: center;
+
+}
+
+.content {
+	background: #6ed4e466;
+	flex: 1 0 0;
+}
+
+.content p {
+	margin: 5px;
+}
+
+.footer {
+	background: #b697f5;
+    display: flex;
+	justify-content: center;
+}
